@@ -94,7 +94,7 @@
 创建githubpage如果之前没有创建过githubpage的 进入自己github的首页，右上角new repository ，创建一个以“自己用户名 ＋ github.io”为名字的respository如图：1例如我的github名字是 nlu">
 <meta property="og:image" content="http://yoursite.com/我的博客创建历程/newrepo.png">
 <meta property="og:image" content="http://yoursite.com/我的博客创建历程/disqus.png">
-<meta property="og:updated_time" content="2017-01-02T15:15:23.000Z">
+<meta property="og:updated_time" content="2017-01-02T15:17:59.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="我的博客创建历程">
 <meta name="twitter:description" content="纸上得来终觉浅，绝知此事要躬行。收藏了n篇关于博客的创建文章，不如自己摸索着创建一个博客。目前博客创建尚未完成，许多界面尚未添加，留待以后慢慢补全
@@ -371,7 +371,7 @@
 <p>编辑文章，执行👇命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi postname</div></pre></td></tr></table></figure></p>
 <p>保存成功后 执行👇命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g //部署到bolg</div><div class="line">hexo d //配置到sever 或者 hexo s 部署到本地，可以在localhost：4000 查看</div></pre></td></tr></table></figure></p>
 <h3 id="绑定个人域名"><a href="#绑定个人域名" class="headerlink" title="绑定个人域名"></a>绑定个人域名</h3><p>进入到thems中的当前theme,如👇命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cd themes/next //我的主题是next</div></pre></td></tr></table></figure></p>
-<p>创建一个名为CNAME的文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">touch CNAME //注意 名字必须是这一个</div><div class="line">vi CNAME //在打开的界面输入你的域名，格式为 _ilucky.me_</div></pre></td></tr></table></figure></p>
+<p>创建一个名为CNAME的文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">touch CNAME //注意 名字必须是这一个</div><div class="line">vi CNAME //在打开的界面输入你的域名，格式为 ilucky.me</div></pre></td></tr></table></figure></p>
 <p>保存成功后执行 之前的命令部署到 github，这样就可以通过你的域名访问你的网站了</p>
 <h3 id="添加评论功能"><a href="#添加评论功能" class="headerlink" title="添加评论功能"></a>添加评论功能</h3><p>评论功能我选择的是 <a href="https://disqus.com" target="_blank" rel="external">disqus</a>, <em>需要翻墙访问</em> 。 首先在<a href="https://disqus.com/admin/" target="_blank" rel="external">admin</a>这这里创建一个站点,进入admin在设置页面找到shortname如图<br><img src="/我的博客创建历程/disqus.png" alt="disqus.png" title=""><br>进入当前theme的文件夹下编辑 _config.yml文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi _config.yml</div></pre></td></tr></table></figure></p>
 <p>找到disqus，修改为👇<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"># Disqus</div><div class="line">disqus_shortname: XXXX //修改你的shortname为 disqus admin中的shortname</div></pre></td></tr></table></figure></p>
